@@ -1,0 +1,50 @@
+/* --------------------------------------------------------------
+
+   typography.css
+   * Sets up some sensible default typography.
+
+   Based on work by:
+   * Nathan Borror     [playgroundblues.com]
+   * Jeff Croft        [jeffcroft.com]
+   * Christian Metts   [mintchaos.com]
+   * Wilson Miner      [wilsonminer.com]
+   * Richard Rutter    [clagnut.com]
+
+   Read more about using a baseline here:
+   * alistapart.com/articles/settingtypeontheweb
+
+-------------------------------------------------------------- */
+
+/* This is where you set your desired font size. The line-heights
+   and vertical margins are automatically calculated from this.
+   The percentage is of 16px (0.75 * 16px = 12px). */
+
+body { font-size: 75%; }
+
+
+/* Default fonts and colors.
+   If you prefer serif fonts, remove the font-family
+   on the headings, and apply this one to the body:
+   font: 1em Georgia, "lucida bright", "times new roman", serif; */
+
+body {
+  color: #222;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #111;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+h6 { font-size: 1em; font-weight: bold; }

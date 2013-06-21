@@ -1,0 +1,16 @@
+* {
+	/* old-style reset here :) */
+	border: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Helvetica;
+	background: white;
+/*	text-align: center;*/
+/*	background: url(../images/body.png) repeat-x;*/
+}
+body h1 {
+	padding-top: 20px;
+	font-size: 26px;
+	color: #335;
+}

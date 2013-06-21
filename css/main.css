@@ -1,0 +1,41 @@
+/**
+ * CodeIgniter Pagination Tutorial Stylesheet
+ * 
+ * @author Yannick Lyn Fatt
+ * @email  yannick@godsporch.net
+ */
+ 
+/*
+Psalm 59:16
+
+But I will sing of your strength, in the morning 
+I will sing of your love; for you are my fortress, 
+my refuge in times of trouble.
+*/
+ 
+/* basic */
+body {
+	font: small/1.4em Verdana, Arial, Helvetica, serif;
+}
+
+/* heading */
+h1 {
+	font-size: 150%;
+}
+
+
+/* tables */
+table {
+	border-collapse: collapse;
+	border: 1px solid #777;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid #777;
+}
+
+th {
+	text-align: left;
+	background-color: #abc;
+}
